@@ -1,0 +1,31 @@
+For Ubuntu:
+
+Install nodejs:
+sudo apt update;
+sudo apt install nodejs;
+
+Install npm:
+sudo apt install npm;
+
+For Windows:
+
+Install nodejs with npm:
+1. Go to the site https://nodejs.org/en/download/ and download the necessary binary files.
+2. Double click on the downloaded .msi file to start the installation. Click the Run button.
+3. Click the "Next" button to continue with the installation.
+
+Open command line and create a directory:
+for example: mkdir test-task
+
+Unzip arhiv to folder 'test-task'.
+
+Change directory with command line:
+for example: cd test-task
+
+Install node module
+npm install prompt-list
+
+Run programm with command line:
+node task.js
+
+Select output mode.
