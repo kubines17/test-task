@@ -7,6 +7,10 @@ sudo apt install nodejs;
 Install npm:
 sudo apt install npm;
 
+Install git:
+sudo apt update;
+sudo apt install git;
+
 For Windows:
 
 Install nodejs with npm:
@@ -14,13 +18,15 @@ Install nodejs with npm:
 2. Double click on the downloaded .msi file to start the installation. Click the Run button.
 3. Click the "Next" button to continue with the installation.
 
-Open command line and create a directory:
-for example: mkdir test-task
+Install git:
+Open link https://git-scm.com/download/win and download .exe file.
+Run .exe file.
 
-Unzip arhiv to folder 'test-task'.
+Open command line and run command: 
+git clone https://github.com/kubines17/test-task.git
 
 Change directory with command line:
-for example: cd test-task
+cd test-task
 
 Install node module
 npm install prompt-list
